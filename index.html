@@ -325,7 +325,9 @@
         }
 
         // --- THE "WORKING MACHINE" LOGIC ---
-        const SIMULATION_MODE = true; 
+        const SIMULATION_MODE = false;
+const BACKEND_API_URL = "http://localhost:3000/api";
+
 
         async function generateVideo() {
             const prompt = document.getElementById("prompt").value.trim();
